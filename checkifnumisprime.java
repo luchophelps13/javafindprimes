@@ -4,7 +4,6 @@ import java.util.*;
 
 public class checkifnumisprime{
 	
-	
 	static void checkIfPrime(int x) { // x must be positive
 		
 		List<Integer> factors = new ArrayList<Integer>(1);;
@@ -20,8 +19,6 @@ public class checkifnumisprime{
 				for (int i = 2; i < x; i++) {
 					if (x % i == 0) {
 						factors.add(i);
-					}
-					else {
 					}
 				}
 			}
