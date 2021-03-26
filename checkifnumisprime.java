@@ -6,7 +6,7 @@ public class checkifnumisprime{
 	
 	static void checkIfPrime(int x) { // x must be positive
 		
-		List<Integer> factors = new ArrayList<Integer>(1);;
+		List<Integer> factors = new ArrayList<Integer>(1);
 		
 		if (x >= 0) {
 		
@@ -26,7 +26,7 @@ public class checkifnumisprime{
 			
 			if (factors.size() < 3) {
 				factors.add(1, x);
-				System.out.println(String.format("%d is prime.", x));
+				System.out.println(String.format("%d is prime, so its factors are 1 and %d.", x, x));
 			}
 			else {
 				System.out.println(String.format("%d is not prime. Its factors are: ", x));
