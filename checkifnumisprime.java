@@ -9,7 +9,6 @@ public class checkifnumisprime{
 		List<Integer> factors = new ArrayList<Integer>(1);;
 		
 		if (x >= 0) {
-
 		
 			if (x == 1) {
 				System.out.println("1 is neither prime nor composite.");
