@@ -17,6 +17,9 @@ public class checkifnumisprime{
 			else {
 				for (int i = 2; i < x; i++) {
 					if (x % i == 0) {
+						if (i*i == x) { //perfect square, so add factor twice
+							factors.add(i); 
+						}
 						factors.add(i);
 					}
 				}
